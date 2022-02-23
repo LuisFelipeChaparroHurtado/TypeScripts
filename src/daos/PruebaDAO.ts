@@ -3,7 +3,7 @@ class PruebaDAO {
 
 
     protected static async obtenerInfo(req: Request, res: Response): Promise<any> {
-        const miJson = { profesores: 'Harvey y andres', materia: 'DOS', N_Estudiantes: '40'};
+        const miJson = { profesores: 'Harvey y andres', materia: 'DOS', N_Estudiantes: '40', Saludo: "Hola"};
 
         Promise.resolve(miJson)
         .then((resultado: any)=>{
